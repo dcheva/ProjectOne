@@ -1,9 +1,11 @@
 ## Unreal Engine 5 files ##
-*.uasset
 
-*.bin
-*.dll
-*.pdb
+# *.uasset
+Content/Characters/
+Content/Characters/*
+Sources/
+Sources/*
+
 Binaries/
 Binaries/*
 Build/
@@ -20,6 +22,10 @@ Saved/*
 */Packed/*
 */Saved/
 */Saved/*
+
+*.bin
+*.dll
+*.pdb
 
 ## Visual Studio files ##
 
